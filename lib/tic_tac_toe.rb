@@ -68,7 +68,7 @@ def move(board, index, value)
  end
  
  
-  #determine the curreng player
+  #determine the current player
   def current_player(board)
     if turn_count(board) == 0
       return "X"
